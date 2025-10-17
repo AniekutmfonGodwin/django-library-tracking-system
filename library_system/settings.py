@@ -103,9 +103,9 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
     ],
-    "DEFAULT_PAGINATION_CLASS":"rest_framework.pagination.PagenumberPagination",
-    "PAGE_SIZE":10,
-    "PAGE_SIZE_QUERY_PARAM":"page_size"
+    # "DEFAULT_PAGINATION_CLASS":"rest_framework.pagination.PagenumberPagination",
+    # "PAGE_SIZE":10,
+    # "PAGE_SIZE_QUERY_PARAM":"page_size"
 }
 
 # Celery Configuration

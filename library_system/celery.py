@@ -13,6 +13,6 @@ app.autodiscover_tasks()
 app.conf.schedule = {
     "daily":{
         "task":"library.tasks.check_overdue_loans",
-        "schedule":crontab(hour=0,minutes=0)
+        "schedule":crontab(hour=0,minute=0)
     }
 }
